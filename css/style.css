@@ -1,0 +1,466 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+.body{
+    height: auto;
+    width: 100%;
+    background-color: black;
+margin: 0px;    padding: 0px;
+}
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+}
+nav{float:right;
+    overflow: hidden;
+}
+
+.navbar img{
+    float:left;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+ul li{
+  display: inline-block; padding:30px;
+  color: white;
+  font-size:20px; font-family:raleway;
+}
+
+ul li:hover{
+  color:rgb(255, 94, 0);
+  
+}
+.imagesection{
+    position: relative;
+    height: 740px;
+    width: 100%;
+    background-color: black;
+}
+.textintro{
+    position: relative;
+    float: left;    height: 100%;
+    width: 50%;
+    background-color: black;
+}
+.imageside{
+    float: right;
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    background-image: url("../images/hero_man.webp");
+    background-size: cover;
+}
+.intro{
+    position: absolute;
+    bottom: 220px;
+    left: 200px;
+    height: 350px;
+    width: 550px;
+    overflow: hidden;
+}
+ h2{
+     font-size: 20px;
+    color:red;
+}
+.intro h1{
+    font-size: 64px;
+    font-family: Roboto;
+}
+h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 54;
+    font-weight: bold;
+}
+.experience{
+    position: relative;
+    height: 350px;
+    width: 100%;
+    /* background-color: red; */
+}
+.experiencefirst{
+    position: absolute;
+    height: 350px;
+    width: 50%;
+    background-color: black;
+}
+.experiencesecond{
+    position: absolute;
+    height: 350px;
+    float: left;
+    right: 0px;
+    width: 50%;
+    background-color: black;
+}
+.midtext{
+    position: absolute;
+    height: 250px;
+    width: 80%;
+    bottom: 20px;
+    right: 70px;
+    /* background-color: black; */
+}
+/* .midrighttext{
+    position: absolute;
+    height: 300px;
+    width: 80%;
+    bottom: 20px;
+    color: blue;
+    background-color: rgb(219, 219, 109);
+    right: 70px;
+} */
+.twomid{
+    position: absolute;
+    bottom: 20px;
+}
+.about{
+    position: relative;
+    /* height: 600px; */
+    width: 100%;
+    background-color: black;
+}
+.aboutone{
+    position: absolute;
+    height: 470px;
+    width: 27%;
+    left: 30px;
+    top: 70px;
+    background-image: url("../images/blog01.webp");
+    background-color: black;
+
+}
+.abouttwo{
+    height: 470px;
+    width: 27%;
+    right: 36%;
+    top: 70px;
+    background-image: url("../images/blog02.webp");
+    /* background-color: blue; */
+    position: absolute;
+}
+.aboutthree{
+    height: 470px;
+    width: 27%;
+    top: 70px;
+    background-image: url("../images/blog03.webp");
+    right: 30px;
+    /* background-color: white; */
+    position: absolute;
+}
+.gallery{
+    position: relative;
+    height: 1300px;
+    /* background-image: url("../images/gallery1.png"); */
+    width: 100%;
+    /* background-color: chocolate; */
+}
+.galleryone{
+    position: absolute;
+    height: 50%;
+    width: 33.33%;
+    background-image: url("../images/gallery1.png");
+    /* background-color: red; */
+}
+.gallerytwo{
+    position: absolute;
+    height: 50%;
+    left: 33.33%;
+    width: 33.33%;
+    background-image: url("../images/gallery2.png");
+    /* background-color: black; */
+}
+.gallerythree{
+    position: absolute;
+    right: 0px;
+    height: 50%;
+    width: 33.33%;
+    background-image: url("../images/gallery3.png");
+    /* background-color: white; */
+}
+.galleryfour{
+    position: absolute;
+    height: 50%;
+    bottom: 0px;
+    width: 33.33%;
+    background-image: url("../images/gallery4.png");
+    /* background-color: gray; */
+}
+.galleryfive{
+    position: absolute;
+    height: 50%;
+    right: 33.33%;
+    bottom: 0px;
+    width: 33.33%;
+    background-image: url("../images/gallery5.png");
+    /* background-color: green; */
+}
+.gallerysix{
+    position: absolute;
+    height: 50%;
+    right: 0px;
+    bottom: 0px;
+    width: 33.33%;
+    background-image: url("../images/gallery6.png");
+    /* background-color: blue; */
+}
+.achivement{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    background-color: blue;
+}
+.achivementone{
+    position: absolute;
+    height: 50%;
+    background-color: black;
+    width: 50%;
+}
+.achivementtwo{
+    position: absolute;
+    right: 0px;
+    height: 50%;
+    background-color: black;
+    width: 50%;
+}
+.achivementthree{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: 50%;
+    background-color: black;
+    width: 100%;
+}
+.onemid{
+    height: 80%;
+    width: 65%;
+    position: absolute;
+    /* background-color: red; */
+    top: 50px;
+    right: 30px;
+}
+
+.rightachivementone{height:200px; 
+width:35%;
+ position: absolute; 
+ border: 1px solid gray;
+ left: 10%;
+  bottom: 40px;
+}
+.rightachivementtwo{
+height:200px; width:35%;
+ position: absolute; 
+ border: 1px solid gray;
+ right: 5%;
+ bottom: 40px;
+}
+.achivementtwo img{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.achivementtwo h1{
+    margin-top: 10px;
+    text-align: center;
+}
+.achivementthree img{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.desc img{
+    /* margin-left: 60px; */
+    margin-top: 90px;
+}
+.desc p{
+    color: white;
+    margin-top: 60px;
+}
+.achivementthree h1{
+    margin-top: 10px;
+    text-align: center;
+}
+.oneaward{
+    height:200px; 
+    width:18%; 
+     position: absolute; 
+     border: 1px solid gray;
+     left: 5%;
+     bottom: 40px;
+    }
+    .twoaward{
+        height:200px; 
+        width:18%; 
+         position: absolute; 
+         border: 1px solid gray;
+         left: 30%;
+         bottom: 40px;
+        }
+        .threeaward{
+            height:200px; 
+            width:18%; 
+             position: absolute; 
+             border: 1px solid gray;
+             right: 30%;
+             bottom: 40px;
+            }
+            .fouraward{
+                height:200px; 
+                width:18%; 
+                 position: absolute; 
+                 border: 1px solid gray;
+                 right: 5%;
+                 bottom: 40px;
+                }
+.desc{
+    height: 500px;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+}
+.imagesectionround{
+    position: relative;
+    height: 80px;
+    width:20%;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 30px;
+}
+.secone{
+    width: 30%;
+    position: absolute;
+     background-image: url("../images/Capture.PNG");
+     background-size: cover;
+     border-radius: 50%;
+     height: 100%;
+}
+.sectwo{
+    width: 50%;
+    position: absolute;
+     right: 60px;
+     height: 100%;
+}
+.blog{
+    height: 650px;
+    width: 100%;
+    background-color: black;
+}
+.blogheading{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+
+
+.tourist-text {
+    text-align: center;
+    height: 140px;
+    width: 100%;
+    padding: 10px;
+  }
+  .tourists {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .tourist {
+    position: relative;
+  }
+  .tourist-card {
+    background-color: rgb(32, 32, 32);
+    position: absolute;
+    /* top: 20px; */
+    bottom: -20px;
+    color: white;
+    right: 0px;
+    padding: 20px;
+  }
+  .tourist-blog {
+    margin-bottom: 100px;
+  }
+  .blog h1 p{
+      color: white;
+  }
+
+
+  /* //footer */
+  .links {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
+  .instagram {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+  }
+  .about p {
+    margin: 30px;
+  }
+  .link {
+    padding: 10px;
+  }
+  .link ul {
+    padding: 20px;
+  }
+  .link ul li {
+    padding: 10px;
+    
+    text-decoration: none;
+  }
+  .link ul li a{
+      color: gray;
+      text-decoration: none;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 45px;
+  }
+  .link h3{
+      color: white;
+  }
+  .copyright{
+      height: 80px;
+      position: relative;
+      width: 100%;
+      background-color: black;
+  }
+  .copyright p{
+    color: white;
+    position: absolute;
+    top: 10px;
+    margin-left: 50px;
+
+  }
+  .icons{
+      position: absolute;
+      right: 10px;
+      color: white;
+      height: 50px;
+      width: 50%;
+  }
+  .icons{
+    position: absolute;
+    right: 10px;
+    color: white;
+    height: 50px;
+    width: 50%;
+}
