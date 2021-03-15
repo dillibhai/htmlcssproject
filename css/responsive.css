@@ -1,0 +1,54 @@
+.navbar nav {
+    display: none;
+  }
+  .navbar i {
+    display: block;
+    color: #e93b32;
+  }
+  .navbar .btn{
+    display: none;
+  }
+  .navbar .flex{
+    justify-content: space-between;
+  }
+  .showcase img {
+    display: none;
+  }
+  .showcase-text {
+    margin-top: 80px;
+    margin-bottom: 0px;
+  }
+  .showcase2 .grid {
+    display: block;
+  }
+  .showcase2 .showcase-text {
+    padding-bottom: 40px;
+  }
+  .images {
+    flex-direction: column;
+  }
+  .gallarys {
+    grid-template-columns: auto;
+  }
+  .award {
+    grid-template-columns: auto;
+  }
+  .quotes h3 {
+    padding: 20px;
+  }
+  .tourists {
+    flex-direction: column;
+  }
+  .tourist {
+    margin-bottom: 40px;
+  }
+  .links {
+    flex-direction: column;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .footer {
+    margin-bottom: 20px;
+  }
+  
