@@ -11,17 +11,17 @@
   .navbar .flex{
     justify-content: space-between;
   }
-  .showcase img {
+  .intropage img {
     display: none;
   }
-  .showcase-text {
+  .introtext {
     margin-top: 80px;
     margin-bottom: 0px;
   }
-  .showcase2 .grid {
+  .intropage2 .grid {
     display: block;
   }
-  .showcase2 .showcase-text {
+  .intropage2 .introtext {
     padding-bottom: 40px;
   }
   .images {
@@ -30,10 +30,10 @@
   .gallarys {
     grid-template-columns: auto;
   }
-  .award {
+  .trophy {
     grid-template-columns: auto;
   }
-  .quotes h3 {
+  .profile h3 {
     padding: 20px;
   }
   .tourists {
